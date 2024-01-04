@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Grid from './grid';
+import Subnav from './subnav';
 
 const MidJourneyFeature = () => {
   return (
@@ -22,32 +23,41 @@ const MidJourneyFeature = () => {
   <link href="images/webclip.png" rel="apple-touch-icon" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@^2/dist/tailwind.min.css"/>
   <div className="container mx-auto px-4">
-    <div className="max-w-4xl mx-auto py-8">
-        <h2 className="text-2xl font-bold mb-4">Your Stream</h2>
-        <p className="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc
-            risus, consectetur eu sodales elementum, convallis in neque. Phasellus
-            a felis ut erat hendrerit accumsan.
-        </p>
+    <div className="max-w-6xl mx-auto text-center pt-64 pb-12">
+      <h1 className="text-8xl mb-8 pb-4">Your Stream</h1>
+      <p className="text-2xl pb-24">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc
+          risus, consectetur eu sodales elementum, convallis in neque. Phasellus
+          a felis ut erat hendrerit accumsan.
+      </p>
     </div>
+
+    
+    <Subnav/>
+
+
     <div className="tabs">
-        {/* Tab Menu */}
-        <div className="flex space-x-4 mb-4">
-            <a href="#" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Trending</a>
-            <a href="#" className="px-4 py-2 text-blue-500 rounded hover:bg-blue-100">#politics</a>
-            <a href="#" className="px-4 py-2 text-blue-500 rounded hover:bg-blue-100">#politics</a>
-            <a href="#" className="px-4 py-2 text-blue-500 rounded hover:bg-blue-100">#entertainment</a>
-            <a href="#" className="px-4 py-2 text-blue-500 rounded hover:bg-blue-100">#cryptocurrency</a>
-        </div>
+      {/* Tab Menu */}
+      <div className="flex mb-4">
+        <a href="#" className="flex-1 px-8 py-3 text-red-500 hover:bg-blue-600 hover:text-white text-5xl">Trending</a>
+        <a href="#" className="flex-1 px-8 py-3 text-purple-500 hover:bg-blue-600 hover:text-white text-5xl">#Politics</a>
+        <a href="#" className="flex-1 px-8 py-3 text-white hover:bg-blue-600 hover:text-white text-5xl">#Politics</a>
+        <a href="#" className="flex-1 px-8 py-3 text-white hover:bg-blue-600 hover:text-white text-5xl">#Entertainment</a>
+        <a href="#" className="flex-1 px-8 py-3 text-white hover:bg-blue-600 hover:text-white text-5xl">#Cryptocurrency</a>
+      </div>
+    </div>
+
+
+
         
         {/* Tab Content (This is just the start, you can add your content as needed) */}
-        <div className="py-4">
+        {/* <div className="py-4"> */}
             {/* Content for Tab 1 */}
-            <div className="tab-content">
+            {/* <div className="tab-content"> */}
                 {/* Your content here */}
-            </div>
-        </div>
-    </div>
+            {/* </div> */}
+        {/* </div> */}
+    {/* </div> */}
 </div>
   <div className="spark-section">
     <div className="spark-container w-container">

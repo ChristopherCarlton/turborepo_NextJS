@@ -2,10 +2,7 @@ export default function Grid(){
     return (
         <div className="grid grid-cols-3 gap-4"> {/* Updated className */}
                 {/* First Column */}
-                <div
-                    id="w-node-d8d9b747-d5c0-c5e6-be55-4256c184aac7-c184aa9d"
-                    className="spark-wrapped-card spark-stacked"
-                >
+                <div className="spark-wrapped-card spark-stacked">
                     <a href="#" className="w-inline-block">
                         <img
                             width={80}
