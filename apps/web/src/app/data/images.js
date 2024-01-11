@@ -1,0 +1,93 @@
+// Array of image objects with associated metadata
+export const images = [
+  // { id: 1, src: '/images/politics/P.png', category: 'politics' },
+  // { id: 2, src: '/images/trending/T.png', category: 'trending' },
+  // { id: 3, src: '/images/entertainment/E.png', category: 'entertainment' },
+  // { id: 4, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+
+    // Politics Category
+  { id: 1, src: '/images/politics/P.png', category: 'politics' },
+  { id: 2, src: '/images/politics/P.png', category: 'politics' },
+  { id: 3, src: '/images/politics/P.png', category: 'politics' },
+  { id: 4, src: '/images/politics/P.png', category: 'politics' },
+  { id: 5, src: '/images/politics/P.png', category: 'politics' },
+  { id: 6, src: '/images/politics/P.png', category: 'politics' },
+  { id: 7, src: '/images/politics/P.png', category: 'politics' },
+  { id: 8, src: '/images/politics/P.png', category: 'politics' },
+  { id: 9, src: '/images/politics/P.png', category: 'politics' },
+  { id: 10, src: '/images/politics/P.png', category: 'politics' },
+  { id: 11, src: '/images/politics/P.png', category: 'politics' },
+  { id: 12, src: '/images/politics/P.png', category: 'politics' },
+  { id: 13, src: '/images/politics/P.png', category: 'politics' },
+  { id: 14, src: '/images/politics/P.png', category: 'politics' },
+  { id: 15, src: '/images/politics/P.png', category: 'politics' },
+  { id: 16, src: '/images/politics/P.png', category: 'politics' },
+  { id: 17, src: '/images/politics/P.png', category: 'politics' },
+  { id: 18, src: '/images/politics/P.png', category: 'politics' },
+
+  // Trending Category
+  { id: 19, src: '/images/trending/T.png', category: 'trending' },
+  { id: 20, src: '/images/trending/T.png', category: 'trending' },
+  { id: 21, src: '/images/trending/T.png', category: 'trending' },
+  { id: 22, src: '/images/trending/T.png', category: 'trending' },
+  { id: 23, src: '/images/trending/T.png', category: 'trending' },
+  { id: 24, src: '/images/trending/T.png', category: 'trending' },
+  { id: 25, src: '/images/trending/T.png', category: 'trending' },
+  { id: 26, src: '/images/trending/T.png', category: 'trending' },
+  { id: 27, src: '/images/trending/T.png', category: 'trending' },
+  { id: 28, src: '/images/trending/T.png', category: 'trending' },
+  { id: 29, src: '/images/trending/T.png', category: 'trending' },
+  { id: 30, src: '/images/trending/T.png', category: 'trending' },
+  { id: 31, src: '/images/trending/T.png', category: 'trending' },
+  { id: 32, src: '/images/trending/T.png', category: 'trending' },
+  { id: 33, src: '/images/trending/T.png', category: 'trending' },
+  { id: 34, src: '/images/trending/T.png', category: 'trending' },
+  { id: 35, src: '/images/trending/T.png', category: 'trending' },
+  { id: 36, src: '/images/trending/T.png', category: 'trending' },
+
+  // Entertainment Category
+  { id: 37, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 38, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 39, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 40, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 41, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 42, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 43, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 44, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 45, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 46, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 47, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 48, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 49, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 50, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 51, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 52, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 53, src: '/images/entertainment/E.png', category: 'entertainment' },
+  { id: 54, src: '/images/entertainment/E.png', category: 'entertainment' },
+
+  // Cryptocurrency Category
+  { id: 55, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 56, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 57, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 58, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 59, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 60, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 61, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 62, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 63, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 64, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 65, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 66, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 67, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 68, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 69, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 70, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 71, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  { id: 72, src: '/images/cryptocurrency/C.png', category: 'cryptocurrency' },
+  ];
+  
+  // Sorting function to filter images by category
+  export const sortImagesByCategory = (category) => {
+    return images.filter((image) => image.category === category);
+  };
+  

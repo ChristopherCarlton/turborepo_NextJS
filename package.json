@@ -24,6 +24,9 @@
     "packages/*"
   ],
   "dependencies": {
+    "@apollo/client": "^3.8.9",
+    "@apollo/server": "^4.10.0",
+    "graphql": "^16.8.1",
     "gsap": "^3.12.4",
     "react-icons": "^4.12.0"
   }
